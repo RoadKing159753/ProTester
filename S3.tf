@@ -17,7 +17,7 @@ provider "aws" {
 
 resource "aws_s3_bucket" "app_server" {
   bucket = "examplebuckettftest"
-  acl    = "pubic-read-write"
+  acl    = "public-read-write"
   versioning {
     enabled = true
   }
