@@ -26,3 +26,4 @@ resource "aws_s3_bucket" "app_server" {
     target_prefix = "log/"
     }
 }
+
